@@ -23,7 +23,7 @@ In addition, an local program is developed as a substitution of front-end to all
 
 ## Getting Started
 ### Deploy our service
-Before you start, make sure `git`, `docker` and `docker-compose` are installed on the server.(If you need help with this, instructions can be found in our [deployment guide](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/AA-Koala%20Deployment%20Guide.pdf))
+Before you start, make sure `git`, `docker` and `docker-compose` are installed on the server.(If you need help with this, instructions can be found in our [deployment guide](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/AA-Koala%20Deployment%20Guide.pdf).
 
 **1. Pull code from our github repo**
 
@@ -110,9 +110,9 @@ For full instruction, please refer to our [Local Program Document](https://githu
 
 ## Motivational Model
 * Functional Goal
-![Functional Goal](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Motivational%20Model.pdf)
+[Functional Goal](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Motivational%20Model.pdf)
 * Non-functional Goal
-![Non-functional_Model](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Motivational%20Model.pdf)
+[Non-functional_Model](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Motivational%20Model.pdf)
 
 ## Personas
-![personas](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Personas.pdf)
+[personas](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Personas.pdf)
