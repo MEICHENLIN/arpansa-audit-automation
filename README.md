@@ -23,12 +23,12 @@ In addition, an local program is developed as a substitution of front-end to all
 
 ## Getting Started
 ### Deploy our service
-Before you start, make sure `git`, `docker` and `docker-compose` are installed on the server.(If you need help with this, instructions can be found in our [deployment guide](https://github.com/geoffreychen831/AABKoala/blob/doc/deploy/deployment%20guide/AA-Koala%20Deployment%20Guide.md))
+Before you start, make sure `git`, `docker` and `docker-compose` are installed on the server.(If you need help with this, instructions can be found in our [deployment guide](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/AA-Koala%20Deployment%20Guide.pdf))
 
 **1. Pull code from our github repo**
 
    ```shell 
-   git clone https://github.com/geoffreychen831/AABKoala.git
+   git clone https://github.com/MEICHENLIN/Automated-Audit-Benchmarking.git
    ```
 
 (Alternatively, you can upload the code in server directory onto the server)
@@ -57,22 +57,19 @@ resultRequest.listResults()
 ```
 5. Go to download folder, open the downloaded Excel, all the data in database are now downloaded in this file.
 
-For full instruction, please refer to our [Local Program Document](https://github.com/geoffreychen831/AABKoala/blob/doc/local/local%20program%20guide/local%20program%20guide.md)
+For full instruction, please refer to our [Local Program Document](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/local%20program%20guide.pdf)
 
 ## Documents
-* [Database](https://github.com/geoffreychen831/AABKoala/blob/doc/database/database%20guide/AA-Koala_Database_Guide.md)
-* [Backend](https://github.com/geoffreychen831/AABKoala/blob/doc/backend/backend%20guide/Server.md)
-* [Local Program](https://github.com/geoffreychen831/AABKoala/blob/doc/local/local%20program%20guide/local%20program%20guide.md)
-* [Deployment guide](https://github.com/geoffreychen831/AABKoala/blob/doc/deploy/deployment%20guide/AA-Koala%20Deployment%20Guide.md)
-* [User Stories](https://github.com/geoffreychen831/AABKoala/blob/master/Doc/Userstories.pdf)
-* [Test Cases Doc](https://github.com/geoffreychen831/AABKoala/blob/master/Test/FunctionalTestCase.pdf)
+* [Database](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/AA-Koala_Database_Guide.pdf)
+* [Backend](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Server.pdf)
+* [Local Program](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/local%20program%20guide.pdf)
+* [Deployment guide](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/AA-Koala%20Deployment%20Guide.pdf)
+* [User Stories](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Userstories.pdf)
+* [Test Cases Doc](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/FunctionalTestCase.pdf)
 
 ## Test
-* [Local Program Test Cases](https://github.com/geoffreychen831/AABKoala/tree/master/LocalProgram/tests)
-* [Backend Test Cases](https://github.com/geoffreychen831/AABKoala/tree/master/Server/apps/graphs/tests)
-
-## Changelog
-* [Changelog](https://github.com/geoffreychen831/AABKoala/blob/doc/changelog/CHANGLOG.md)
+* [Local Program Test Cases](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/tree/main/LocalProgram/tests)
+* [Backend Test Cases](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/tree/main/Server/apps/graphs/tests)
 
 ## List of files
 ```
@@ -113,9 +110,9 @@ For full instruction, please refer to our [Local Program Document](https://githu
 
 ## Motivational Model
 * Functional Goal
-![Functional Goal](https://github.com/geoffreychen831/AABKoala/blob/doc/images/images/Functional_Model.png)
+![Functional Goal](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Motivational%20Model.pdf)
 * Non-functional Goal
-![Non-functional_Model](https://github.com/geoffreychen831/AABKoala/blob/doc/images/images/Non-functional_Model.png)
+![Non-functional_Model](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Motivational%20Model.pdf)
 
 ## Personas
-![personas](https://github.com/geoffreychen831/AABKoala/blob/doc/images/images/personas.png)
+![personas](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Personas.pdf)
