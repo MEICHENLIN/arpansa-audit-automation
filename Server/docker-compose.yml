@@ -3,14 +3,19 @@ version: '3'
 services:
   db:
     image: mysql:8
-    command: --default-authentication-plugin=mysql_native_password
+    # command: --default-authentication-plugin=mysql_native_password
     ports:
       - "3306:3306"
     environment:
       MYSQL_DATABASE: NDS
       MYSQL_ROOT_PASSWORD: AA-koala123456
-    volumes:
-      - /data:/var/lib/mysql
+      MYSQL_USER: django
+      MYSQL_PASSWORD: django123
+    # volumes:
+    #   - ./data:/var/lib/mysql
+    tmpfs:
+      - /var/lib/mysql  # Use in-memory filesystem
+
 
   web:
     build: .
@@ -18,6 +23,6 @@ services:
     ports:
       - "8000:8000"
     volumes:
-    - /graph:/code/utils/plGraphs
+    - ./graph:/code/utils/plGraphs
     depends_on:
       - db

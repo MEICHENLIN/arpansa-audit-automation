@@ -2,7 +2,8 @@ import http.client
 import urllib.request
 import os
 import json
-from LocalProgram.config import *
+# from LocalProgram.config import *
+from config import *
 
 
 class graphRequest:

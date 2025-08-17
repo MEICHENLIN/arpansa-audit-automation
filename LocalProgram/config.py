@@ -10,6 +10,10 @@
 # host = "35.189.21.28"
 # port = 8000
 
+# authorization = "Basic Y2xpZW50OkFBLWtvYWxhMTIzNDU2"
+# host = "34.92.80.63"
+# port = 8000
+
 authorization = "Basic Y2xpZW50OkFBLWtvYWxhMTIzNDU2"
-host = "34.92.80.63"
+host = 'localhost'
 port = 8000

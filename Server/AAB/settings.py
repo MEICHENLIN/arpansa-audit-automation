@@ -84,8 +84,10 @@ DATABASES = {
         'NAME': 'NDS',
         'HOST': 'db',
         'PORT': 3306,
-        'USER': 'root',  # use own database account name
-        'PASSWORD': 'AA-koala123456',  # use own database account password
+        'USER': 'django',
+        'PASSWORD': 'django123',
+        # 'USER': 'root',  # use own database account name
+        # 'PASSWORD': 'AA-koala123456',  # use own database account password
     }
 }
 

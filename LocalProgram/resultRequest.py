@@ -3,7 +3,8 @@ import json
 import http.client
 import mimetypes
 from pandas import json_normalize
-from LocalProgram.config import *
+# from LocalProgram.config import *
+from config import *
 from datetime import datetime
 import time
 import math
@@ -19,7 +20,7 @@ class resultRequest:
 
     def parseExcel(self):
         # read excel
-        filename = "upload/AllData_copy.xlsx"
+        filename = "upload/AllData.xlsx"
         df = pd.read_excel(filename)
         df["AuditDate"] = pd.to_datetime(df["AuditDate"], errors='coerce')
         df["AuditDate"] = df["AuditDate"].dt.strftime("%Y-%m-%d")
