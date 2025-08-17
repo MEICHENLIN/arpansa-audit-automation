@@ -1,7 +1,11 @@
-# Automated Audit Benchmarking System - By Team Koala
-Bacause of the increament of the audit data, a regular Excel file is not capable of handling the increasingly complex data structure and audit process conducted by the ARPANSA. As a result, a database is urgently required. This project normalised the Excel data into a Mysql database schema and implemented a backend that automates the "IMRT" and "3DRT" analysis process. 
+# ARPANSA Audit Data Automation
+As the volume and complexity of audit data at ARPANSA increased, traditional Excel-based workflows became inefficient and unsustainable. The audit files were often unstructured, with inconsistent formats, complicated columns, and data that was difficult to interpret or analyse effectively. These issues resulted in manual, error-prone processes and slow turnaround times for key tasks.
 
-In addition, an local program is developed as a substitution of front-end to allow user to run the automated process with various options.
+This system addresses those challenges by transforming the legacy Excel data into a normalised MySQL database schema and generating “IMRT” and “3DRT” audit graphs for further analysis.
+
+By streamlining data ingestion, structuring complex datasets, and automating repetitive tasks, this solution improves readability, enhances maintainability, and enables faster, more reliable auditing — laying the groundwork for scalable, data-driven operations at ARPANSA.
+
+A local program is developed as a substitution of front-end to allow user to run the automated process with various options.
 
 ## Recommended System Requirement
 
@@ -28,7 +32,7 @@ Before you start, make sure `git`, `docker` and `docker-compose` are installed o
 **1. Pull code from our github repo**
 
    ```shell 
-   git clone https://github.com/MEICHENLIN/Automated-Audit-Benchmarking.git
+   git clone https://github.com/MEICHENLIN/arpansa-audit-automation.git
    ```
 
 (Alternatively, you can upload the code in server directory onto the server)
@@ -50,26 +54,13 @@ from LocalProgram.resultRequest import *
 resultRequest.insertNewResult()
 ```
 3. If it returns a json in the console, meaning it has succesfully inserted the result
+
 4. You can check the inserted result by calling `listResults()`
 ```python
 from LocalProgram.resultRequest import *
 resultRequest.listResults()
 ```
 5. Go to download folder, open the downloaded Excel, all the data in database are now downloaded in this file.
-
-For full instruction, please refer to our [Local Program Document](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/local%20program%20guide.pdf)
-
-## Documents
-* [Database](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/AA-Koala_Database_Guide.pdf)
-* [Backend](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Server.pdf)
-* [Local Program](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/local%20program%20guide.pdf)
-* [Deployment guide](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/AA-Koala%20Deployment%20Guide.pdf)
-* [User Stories](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Userstories.pdf)
-* [Test Cases Doc](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/FunctionalTestCase.pdf)
-
-## Test
-* [Local Program Test Cases](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/tree/main/LocalProgram/tests)
-* [Backend Test Cases](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/tree/main/Server/apps/graphs/tests)
 
 ## List of files
 ```
@@ -107,12 +98,3 @@ For full instruction, please refer to our [Local Program Document](https://githu
         ├── plot.py
         └── sample.py
 ```
-
-## Motivational Model
-* Functional Goal
-[Functional Goal](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Motivational%20Model.pdf)
-* Non-functional Goal
-[Non-functional_Model](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Motivational%20Model.pdf)
-
-## Personas
-[personas](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/Personas.pdf)
