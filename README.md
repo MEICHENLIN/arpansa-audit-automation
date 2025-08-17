@@ -1,9 +1,7 @@
 # ARPANSA Audit Data Automation
-As the volume and complexity of audit data at ARPANSA increased, traditional Excel-based workflows became inefficient and unsustainable. The audit files were often unstructured, with inconsistent formats, complicated columns, and data that was difficult to interpret or analyse effectively. These issues resulted in manual, error-prone processes and slow turnaround times for key tasks.
+As the volume and complexity of audit data at ARPANSA (Australian Radiation Protection and Nuclear Safety Agency) increased, traditional Excel-based workflows became inefficient and unsustainable. The audit files were often unstructured, with inconsistent formats, complicated columns, and data that was difficult to interpret or analyse effectively. These issues resulted in manual, error-prone processes and slow turnaround times for key tasks.
 
-This system addresses those challenges by transforming the legacy Excel data into a normalised MySQL database schema and generating “IMRT” and “3DRT” audit graphs for further analysis.
-
-By streamlining data ingestion, structuring complex datasets, and automating repetitive tasks, this solution improves readability, enhances maintainability, and enables faster, more reliable auditing — laying the groundwork for scalable, data-driven operations at ARPANSA.
+This system addresses those challenges by transforming the legacy Excel data into a normalised MySQL database schema and generating IMRT and 3DRT audit graphs for further analysis.
 
 A local program is developed as a substitution of front-end to allow user to run the automated process with various options.
 
@@ -61,40 +59,3 @@ from LocalProgram.resultRequest import *
 resultRequest.listResults()
 ```
 5. Go to download folder, open the downloaded Excel, all the data in database are now downloaded in this file.
-
-## List of files
-```
-├── Doc
-├── LocalProgram
-│   ├── Demo.py
-│   ├── config.py
-│   ├── graphRequest.py
-│   ├── resultRequest.py
-│   ├── tests
-│   └── upload
-└── Server
-    ├── AAB
-    │   ├── asgi.py
-    │   ├── settings.py
-    │   ├── urls.py
-    │   └── wsgi.py
-    ├── apps
-    │   └── graphs
-    │       ├── Services
-    │       │   └── graphService.py
-    │       ├── admin.py
-    │       ├── apps.py
-    │       ├── migrations
-    │       ├── models.py
-    │       ├── serializers.py
-    │       ├── tests
-    │       │   ├── test_urls.py
-    │       │   └── test_views.py
-    │       ├── urls.py
-    │       └── views.py
-    ├── utils
-        ├── images
-        ├── plGraphs  
-        ├── plot.py
-        └── sample.py
-```
