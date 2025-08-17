@@ -1,4 +1,4 @@
-# ARPANSA Audit Data Automation
+# Audit Data Automation
 As the volume and complexity of audit data at ARPANSA (Australian Radiation Protection and Nuclear Safety Agency) increased, traditional Excel-based workflows became inefficient and unsustainable. The audit files were often unstructured, with inconsistent formats, complicated columns, and data that was difficult to interpret or analyse effectively. These issues resulted in manual, error-prone processes and slow turnaround times for key tasks.
 
 This system addresses those challenges by transforming the legacy Excel data into a normalised MySQL database schema and generating IMRT and 3DRT audit graphs for further analysis.
@@ -25,7 +25,7 @@ A local program is developed as a substitution of front-end to allow user to run
 
 ## Getting Started
 ### Deploy our service
-Before you start, make sure `git`, `docker` and `docker-compose` are installed on the server.(If you need help with this, instructions can be found in our [deployment guide](https://github.com/MEICHENLIN/Automated-Audit-Benchmarking/blob/main/Doc/AA-Koala%20Deployment%20Guide.pdf).
+Before you start, make sure `git`, `docker` and `docker-compose` are installed.
 
 **1. Pull code from our github repo**
 
